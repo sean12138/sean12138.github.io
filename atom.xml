@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sean12138.github.io</id>
     <title>人人都是孔乙己</title>
-    <updated>2021-02-13T11:57:14.566Z</updated>
+    <updated>2021-02-13T11:59:03.423Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sean12138.github.io"/>
     <link rel="self" href="https://sean12138.github.io/atom.xml"/>
@@ -11,15 +11,17 @@
     <icon>https://sean12138.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 人人都是孔乙己</rights>
     <entry>
-        <title type="html"><![CDATA[学习目标]]></title>
+        <title type="html"><![CDATA[年度学习目标]]></title>
         <id>https://sean12138.github.io/post/xue-xi-mu-biao/</id>
         <link href="https://sean12138.github.io/post/xue-xi-mu-biao/">
         </link>
         <updated>2021-02-13T11:55:53.000Z</updated>
-        <content type="html"><![CDATA[<p>2021-2-13<br>
-1：今日建站<br>
-2：默默单词150<br>
-3：口语练习</p>
+        <content type="html"><![CDATA[<p>1：考研上岸<br>
+2：学习日语<br>
+3：学习雅思<br>
+4：护师准备<br>
+5：公务员准备<br>
+6：精通ppt</p>
 ]]></content>
     </entry>
     <entry>
