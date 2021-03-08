@@ -1,206 +1,221 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>有用的软件 | 人人都是孔乙己</title>
 <meta name="description" content="无聊瞎写的">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://sean12138.github.io/favicon.ico?v=1613288547343">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="shortcut icon" href="https://sean12138.github.io/favicon.ico?v=1615183258915">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://sean12138.github.io/styles/main.css">
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://sean12138.github.io">人人都是孔乙己</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
-        
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://sean12138.github.io">
+        <img class="avatar" src="https://sean12138.github.io/images/avatar.png?v=1615183258915" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://sean12138.github.io">
+        <h1 class="site-title">人人都是孔乙己</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
     </div>
   </div>
-</nav>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <h2 class="current-tag">标签: 有用的软件</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://sean12138.github.io/post/da-nian-chu-er-ji-shi-ppt/">大年初二--PPT插件</a>
-    </h2>
-    <p class="article-meta">
-      2021-02-13
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
-        <a href="https://sean12138.github.io/tag/63jVjV-pZ/" class="badge success">
-          有用的软件
-        </a>
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
       
-    </p>
-    <p class="text-lead">
-      <p>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1108637&amp;highlight=PPT%2B%B2%E5%BC%FE</p>
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 有用的软件
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://sean12138.github.io/post/da-nian-chu-liu-shou-zhang-zi-tie/">
+        <h2 class="post-title">大年初六--手账+字帖</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2021-02-18</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://sean12138.github.io/tag/63jVjV-pZ/">
+                有用的软件
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://sean12138.github.io/post/da-nian-chu-wu-anki/">
+        <h2 class="post-title">大年初五--anki+人人影视开源网站分享</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2021-02-16</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://sean12138.github.io/tag/63jVjV-pZ/">
+                有用的软件
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://sean12138.github.io/tag/gSohOKsKP/">
+                学习日记
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+  </section>
+
+<section class="post-item">
+    <div class="content">
+      <a href="https://sean12138.github.io/post/da-nian-chu-er-ji-shi-ppt/">
+        <h2 class="post-title">大年初二--PPT插件</h2>
+      </a>
+      <div class="post-abstract">
+        <p>https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=1108637&amp;highlight=PPT%2B%B2%E5%BC%FE</p>
 <p>相信大家都知道 PPT 有很多的辅助插件，像 iSlide、OneKey、LvyhTools ...</p>
 <p>如果能够善用这些插件，自然可以在很大程度上提高你的制作效率。</p>
 <p>而如果你只是装了插件，却不知道该怎么用，那无疑，只会拖慢软件的加载速度。</p>
 <p>那么，问题来了，每个插件的功能都这么多，在排版 PPT 时到底该怎么用呢？</p>
 <p>不要被密密麻麻的功能吓到，今天这篇文章，我就结合自身的定制经验，跟各位分享一些插件中非常好用，而且使用频率很高的功能。</p>
 
-    </p>
-    <div class="row">
-      <a href="https://sean12138.github.io/post/da-nian-chu-er-ji-shi-ppt/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2021-02-13</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://sean12138.github.io/tag/63jVjV-pZ/">
+                有用的软件
+                
+              </a>
+            
+          </span>
+        
+      </div>
     </div>
-  </article>
+    
+  </section>
 
 
-        </div>
-        <div class="row flex-edges">
+<div class="pagination-container">
   
   
 </div>
+
 
       </div>
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://sean12138.github.io/images/avatar.png?v=1613288547343" class="no-responsive avatar">
-    <div class="text-muted">无聊瞎写的</div>
-    <div class="social-container">
+
+      <div class="site-footer">
+  <div class="slogan">无聊瞎写的</div>
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
-      
-    </div>
+    
   </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://sean12138.github.io/post/da-nian-chu-san-ji-hu-cao-zuo-shi-pin/">大年初三--基护操作视频</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://sean12138.github.io/post/da-nian-chu-er-ji-shi-ppt/">大年初二--PPT插件</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://sean12138.github.io/post/xue-xi-mu-biao/">年度学习目标</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://sean12138.github.io/post/2021-2-13-chu-ci-jian-zhan/">2021-2-13 初次建站</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://sean12138.github.io/tag/gSohOKsKP/" class="badge warning">
-          学习日记
-        </a>
-      
-        <a href="https://sean12138.github.io/tag/63jVjV-pZ/" class="badge secondary">
-          有用的软件
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://sean12138.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://sean12138.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
+
     </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
+    <script type="application/javascript">
 
 hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
 
